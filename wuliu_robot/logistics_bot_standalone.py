@@ -12,7 +12,7 @@ class LogisticsBot:
         """
         # TODO: 请替换为您自己的快递鸟凭证
         self.e_business_id = "你的商户ID"
-        self.api_key = "0455d8b7-c944-45f6-a86b-3f164f125f6f"
+        self.api_key = "你的快递鸟API密钥"
         
         self.query_history: List[Dict[str, Any]] = []
         self.base_url = "https://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx"

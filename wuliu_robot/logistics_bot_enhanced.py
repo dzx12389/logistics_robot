@@ -13,8 +13,8 @@ class LogisticsBot:
         初始化物流查询机器人
         """
         # ⚙️ 请替换为您自己的快递鸟凭证
-        self.e_business_id = "1900914"
-        self.api_key = "0455d8b7-c944-45f6-a86b-3f164f125f6f"
+        self.e_business_id = "你的商户编号"
+        self.api_key = "你的快递鸟API密钥"
 
         self.query_history: List[Dict[str, Any]] = []
         self.base_url = "https://api.kdniao.com/Ebusiness/EbusinessOrderHandle.aspx"

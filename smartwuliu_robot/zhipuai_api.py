@@ -4,7 +4,7 @@ from zhipuai import ZhipuAI  # 需先安装：pip install zhipuai
 class ZhipuAIAPI:
     def __init__(self):
         # 替换为你的真实智谱API Key（从https://open.bigmodel.cn/获取）
-        self.api_key = "f53be3f7ce6b4aa6946924a134f68b49.MYahSNgn8ObzjDUj"
+        self.api_key = "你的智谱API密钥"
         self.client = ZhipuAI(api_key=self.api_key)
         
         # 系统提示词（定义物流助手角色）

@@ -11,7 +11,7 @@ try:
     
     class ZhipuAIAPI:
         def __init__(self):
-            self.api_key = "f53be3f7ce6b4aa6946924a134f68b49.MYahSNgn8ObzjDUj"
+            self.api_key = "你的智谱API密钥"
             self.client = ZhipuAI(api_key=self.api_key)
             
             self.system_prompt = """你是专业的物流助手，专注于以下服务：

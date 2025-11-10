@@ -5,7 +5,7 @@ from zhipuai import ZhipuAI  # 确保已安装：pip install zhipuai
 class ZhipuAIAPI:
     def __init__(self):
         # 替换为你的真实API Key
-        self.api_key = "f53be3f7ce6b4aa6946924a134f68b49.MYahSNgn8ObzjDUj"
+        self.api_key = "你的快递鸟API密钥"
         self.client = None
         try:
             self.client = ZhipuAI(api_key=self.api_key)
